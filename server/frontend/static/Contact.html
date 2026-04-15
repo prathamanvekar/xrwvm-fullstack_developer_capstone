@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+    <title>Contact Us - Best Cars</title>
+    <style>
+      .contact-wrapper {
+        width: 85%;
+        margin: 4% auto;
+        padding: 2rem;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      }
+
+      .contact-title {
+        font-size: 2.2rem;
+        margin-bottom: 0.8rem;
+        color: #0b3a53;
+      }
+
+      .contact-subtitle {
+        font-size: 1rem;
+        color: #2f4f5f;
+        margin-bottom: 1.5rem;
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .contact-card {
+        border: 1px solid #e9eef2;
+        border-radius: 10px;
+        padding: 1rem;
+        background: #f9fcff;
+      }
+
+      .contact-card h3 {
+        margin-bottom: 0.4rem;
+        color: #103a5a;
+        font-size: 1.1rem;
+      }
+
+      .contact-card p {
+        margin: 0.2rem 0;
+        color: #334e63;
+      }
+
+      @media (max-width: 768px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Dealerships</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="font-size: larger"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="font-size: larger"
+                href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-wrapper">
+      <h1 class="contact-title">Contact Us</h1>
+      <p class="contact-subtitle">
+        We are here to help with vehicle inquiries, financing options, test
+        drives, and service appointments.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Main Showroom</h3>
+          <p>Best Cars Dealership</p>
+          <p>2450 Lakeview Avenue, Toronto, ON M5V 2T6</p>
+          <p>Phone: +1 (416) 555-0198</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Sales Department</h3>
+          <p>Email: sales@bestcars.com</p>
+          <p>Phone: +1 (416) 555-0142</p>
+          <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Service Center</h3>
+          <p>Email: service@bestcars.com</p>
+          <p>Phone: +1 (416) 555-0177</p>
+          <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Customer Support</h3>
+          <p>Email: support@bestcars.com</p>
+          <p>Phone: +1 (416) 555-0164</p>
+          <p>Response time: within 1 business day</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
